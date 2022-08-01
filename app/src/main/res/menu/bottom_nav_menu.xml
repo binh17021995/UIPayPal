@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/assignment_returned_up"
+        app:showAsAction="ifRoom"
+        android:title="Enviar"/>
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:title="Recibir"/>
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/person"
+        app:showAsAction="ifRoom"
+        android:title="Perfil" />
+</menu>

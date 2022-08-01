@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-hdpi/background_addcard.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable-hdpi/dotted.xml" value="0.242" />
+        <entry key="app/src/main/res/drawable-v24/btn_home.xml" value="0.2075" />
+        <entry key="app/src/main/res/drawable-xxxhdpi/background_hoy.xml" value="0.158" />
+        <entry key="app/src/main/res/drawable-xxxhdpi/background_screen_home1.xml" value="0.158" />
+        <entry key="app/src/main/res/drawable-xxxhdpi/bg_add_card.xml" value="0.2075" />
+        <entry key="app/src/main/res/drawable/backgroud_addcar_screen.xml" value="0.1435" />
+        <entry key="app/src/main/res/drawable/background_text.xml" value="0.158" />
+        <entry key="app/src/main/res/drawable/background_white.xml" value="0.1695" />
+        <entry key="app/src/main/res/drawable/bg_delete.xml" value="0.1435" />
+        <entry key="app/src/main/res/drawable/bg_edit.xml" value="0.1435" />
+        <entry key="app/src/main/res/drawable/bg_exit.xml" value="0.1435" />
+        <entry key="app/src/main/res/drawable/btn_add_card.xml" value="0.1435" />
+        <entry key="app/src/main/res/drawable/btn_enviar_ahora.xml" value="0.1695" />
+        <entry key="app/src/main/res/drawable/dotted.xml" value="0.148" />
+        <entry key="app/src/main/res/drawable/piza.xml" value="0.1725" />
+        <entry key="app/src/main/res/drawable/red.xml" value="0.1725" />
+        <entry key="app/src/main/res/drawable/txt_enviar.xml" value="0.1935" />
+        <entry key="app/src/main/res/font-v26/montserrat.xml" value="0.23487179487179488" />
+        <entry key="app/src/main/res/font/.xml" value="0.23487179487179488" />
+        <entry key="app/src/main/res/font/lato.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/font/lato1.xml" value="0.18541666666666667" />
+        <entry key="app/src/main/res/font/lato_black.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/font/lato_light.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/font/lato_light1.xml" value="0.23384615384615384" />
+        <entry key="app/src/main/res/font/montserrat.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/font/montserrat_medium.xml" value="0.18645833333333334" />
+        <entry key="app/src/main/res/font/montserrat_semibold.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/font/raleway.xml" value="0.23384615384615384" />
+        <entry key="app/src/main/res/layout-hdpi/activity_main.xml" value="0.5" />
+        <entry key="app/src/main/res/layout-mdpi/act_enviar_ahora.xml" value="0.33076923076923076" />
+        <entry key="app/src/main/res/layout-mdpi/activity_main.xml" value="0.55" />
+        <entry key="app/src/main/res/layout-xhdpi/activity_main.xml" value="0.23697916666666666" />
+        <entry key="app/src/main/res/layout-xxhdpi/activity_main.xml" value="0.16971796140524492" />
+        <entry key="app/src/main/res/layout-xxxhdpi/activity_main.xml" value="0.177734375" />
+        <entry key="app/src/main/res/layout-xxxhdpi/trade_history.xml" value="0.75" />
+        <entry key="app/src/main/res/layout/act_add_card.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/act_enviar_ahora.xml" value="0.9375" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.13832738803012287" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.6781750924784217" />
+        <entry key="app/src/main/res/layout/add_card.xml" value="0.46375" />
+        <entry key="app/src/main/res/layout/add_card_scrren.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/avarta_home_screen.xml" value="0.1490289338089576" />
+        <entry key="app/src/main/res/layout/card_home_screen.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/dfg.xml" value="0.55" />
+        <entry key="app/src/main/res/layout/fdfhh.xml" value="0.16567578279825604" />
+        <entry key="app/src/main/res/layout/home_layout.xml" value="0.4894613583138173" />
+        <entry key="app/src/main/res/layout/home_screen.xml" value="0.46808510638297873" />
+        <entry key="app/src/main/res/layout/item_card.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/more.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/pay_screen.xml" value="0.33125" />
+        <entry key="app/src/main/res/layout/recyclerview_add_card.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/recyclerview_content_pay.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/recyclerview_trade_history.xml" value="0.17360285374554102" />
+        <entry key="app/src/main/res/layout/screen_home.xml" value="0.55" />
+        <entry key="app/src/main/res/layout/screen_home1.xml" value="0.5225" />
+        <entry key="app/src/main/res/layout/sdsdsd.xml" value="0.16171224732461356" />
+        <entry key="app/src/main/res/layout/trade_history.xml" value="0.47" />
+        <entry key="app/src/main/res/layout/user.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.16567578279825604" />
+        <entry key="app/src/main/res/menu/show_menu.xml" value="0.11097899326198969" />
+      </map>
+    </option>
+  </component>
+</project>

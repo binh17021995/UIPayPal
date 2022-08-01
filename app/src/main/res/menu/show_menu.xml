@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/edit_cards"
+        android:icon="@drawable/bg_edit"
+        android:title="edit"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/delete_cards"
+        android:icon="@drawable/bg_delete"
+        android:title="delete"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/exit_menu"
+        android:icon="@drawable/bg_exit"
+        android:title="exit"
+        app:showAsAction="ifRoom" />
+</menu>

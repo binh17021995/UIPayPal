@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_screen_home1"
+    android:layout_height="190dp">
+    <ImageView
+        android:id="@+id/avtar_card_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mary_rich"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_car_home_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nina te ha enviado"
+        style="@style/TextStyle7"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/avtar_card_home"/>
+    <TextView
+        android:id="@+id/tv_car_home_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20,00€"
+        android:textSize="28sp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textColor="@color/white"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_below="@id/tv_car_home_1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_text"
+        android:text="VER DETALLES"
+        style="@style/TextStyle2"
+        android:layout_marginTop="12dp"
+        android:paddingVertical="7dp"
+        android:layout_alignParentStart="true"
+        android:paddingHorizontal="21dp"
+        android:layout_marginStart="28dp"
+        android:layout_below="@id/tv_car_home_2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOY"
+        style="@style/TextStyle9"
+        android:layout_marginEnd="20dp"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/background_hoy"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentEnd="true"/>
+
+
+    <TextView
+        android:id="@+id/tv_text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_car_home_1"
+        android:layout_marginStart="30dp"
+        android:gravity="start"
+        android:layout_alignEnd="@id/img_pizza"
+        android:layout_marginBottom="25dp"
+        android:text="Por la cena..."
+        android:ellipsize="end"
+        android:maxLines="1"
+        style="@style/TextStyle7"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+    <ImageView
+        android:id="@+id/img_pizza"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pizza"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/tv_text5"
+        android:layout_alignBottom="@id/tv_text5"/>
+
+    <TextView
+        android:id="@+id/tv_car_home_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mensaje"
+        style="@style/TextStyle8"
+        android:layout_toRightOf="@id/tv_car_home_1"
+        android:gravity="start"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="30dp"
+        android:layout_above="@id/tv_text5"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
