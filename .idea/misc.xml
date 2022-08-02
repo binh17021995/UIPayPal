@@ -15,6 +15,7 @@
         <entry key="app/src/main/res/drawable/bg_delete.xml" value="0.1435" />
         <entry key="app/src/main/res/drawable/bg_edit.xml" value="0.1435" />
         <entry key="app/src/main/res/drawable/bg_exit.xml" value="0.1435" />
+        <entry key="app/src/main/res/drawable/bg_linear_more.xml" value="0.224" />
         <entry key="app/src/main/res/drawable/btn_add_card.xml" value="0.1435" />
         <entry key="app/src/main/res/drawable/btn_enviar_ahora.xml" value="0.1695" />
         <entry key="app/src/main/res/drawable/dotted.xml" value="0.148" />
@@ -44,13 +45,13 @@
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.13832738803012287" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.6781750924784217" />
         <entry key="app/src/main/res/layout/add_card.xml" value="0.46375" />
-        <entry key="app/src/main/res/layout/add_card_scrren.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/add_card_scrren.xml" value="0.39960435212660733" />
         <entry key="app/src/main/res/layout/avarta_home_screen.xml" value="0.1490289338089576" />
         <entry key="app/src/main/res/layout/card_home_screen.xml" value="0.5" />
         <entry key="app/src/main/res/layout/dfg.xml" value="0.55" />
         <entry key="app/src/main/res/layout/fdfhh.xml" value="0.16567578279825604" />
         <entry key="app/src/main/res/layout/home_layout.xml" value="0.4894613583138173" />
-        <entry key="app/src/main/res/layout/home_screen.xml" value="0.46808510638297873" />
+        <entry key="app/src/main/res/layout/home_screen.xml" value="0.5" />
         <entry key="app/src/main/res/layout/item_card.xml" value="0.45" />
         <entry key="app/src/main/res/layout/more.xml" value="0.5" />
         <entry key="app/src/main/res/layout/pay_screen.xml" value="0.33125" />

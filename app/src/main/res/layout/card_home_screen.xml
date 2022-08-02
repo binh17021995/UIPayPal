@@ -35,6 +35,7 @@
         android:layout_marginStart="28dp"
         android:layout_below="@id/tv_car_home_1"/>
     <TextView
+        android:id="@+id/tv_ver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/background_text"
@@ -64,26 +65,17 @@
         android:id="@+id/tv_text5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/tv_car_home_1"
-        android:layout_marginStart="30dp"
-        android:gravity="start"
-        android:layout_alignEnd="@id/img_pizza"
+        android:gravity="end"
         android:layout_marginBottom="25dp"
-        android:text="Por la cena..."
-        android:ellipsize="end"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:text="Por la cena... 🍕"
+        android:ellipsize="middle"
         android:maxLines="1"
         style="@style/TextStyle7"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"/>
-    <ImageView
-        android:id="@+id/img_pizza"
-        android:layout_width="20dp"
-        android:layout_height="wrap_content"
-        android:src="@drawable/pizza"
-        android:layout_marginEnd="20dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@id/tv_text5"
-        android:layout_alignBottom="@id/tv_text5"/>
+
 
     <TextView
         android:id="@+id/tv_car_home_6"
@@ -91,11 +83,8 @@
         android:layout_height="wrap_content"
         android:text="Mensaje"
         style="@style/TextStyle8"
-        android:layout_toRightOf="@id/tv_car_home_1"
-        android:gravity="start"
         android:layout_marginBottom="2dp"
-        android:layout_marginStart="30dp"
-        android:layout_above="@id/tv_text5"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignStart="@id/tv_text5"
+        android:layout_above="@id/tv_text5"/>
 
 </RelativeLayout>

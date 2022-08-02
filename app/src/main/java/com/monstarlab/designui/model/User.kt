@@ -1,5 +1,7 @@
 package com.monstarlab.designui.model
 
-class User(val avatar :Int, val nameUser : String) {
+import java.io.Serializable
+
+class User(val avatar :Int, val nameUser : String) : Serializable {
 
 }

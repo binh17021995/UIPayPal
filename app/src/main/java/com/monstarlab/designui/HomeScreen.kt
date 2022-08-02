@@ -11,6 +11,7 @@ import com.monstarlab.designui.adapter.TradeAdapter
 import com.monstarlab.designui.model.TradeHistory
 import com.monstarlab.designui.model.User
 import com.monstarlab.designui.adapter.UserAdapter
+import com.monstarlab.designui.my_interface.IClickUser
 
 class HomeScreen : AppCompatActivity() {
 
@@ -20,28 +21,50 @@ class HomeScreen : AppCompatActivity() {
     private lateinit var tradeAdapter: TradeAdapter
     private lateinit var recyclerViewUser: RecyclerView
     private lateinit var recyclerViewTrade: RecyclerView
+    private lateinit var imgAvatar : ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.home_screen)
         initView()
 
+        imgAvatar.setOnClickListener {
+            goToCard()
+        }
+
+    }
+
+    private fun goToCard() {
+        val intentCard :Intent = Intent(this, AddCardScrren::class.java)
+        startActivity(intentCard)
     }
 
     private fun initView() {
         recyclerViewUser = findViewById(R.id.recyclerview_user)
         recyclerViewTrade = findViewById(R.id.recyclerview_trade_history)
+        imgAvatar = findViewById(R.id.img_avatar_tollbar)
         recyclerViewUser.layoutManager = GridLayoutManager(this, 4, RecyclerView.VERTICAL, false)
         recyclerViewTrade.layoutManager = LinearLayoutManager(this, RecyclerView.VERTICAL, false)
         listUser = ArrayList()
         listTrade = ArrayList()
         addListUser()
         addListTrade()
-        userAdapter = UserAdapter(listUser)
+        userAdapter = UserAdapter(listUser, object : IClickUser {
+            override fun ClickUser(user: User) {
+                onClickToPay(user)
+
+            }
+        })
         tradeAdapter = TradeAdapter(listTrade)
         recyclerViewUser.adapter = userAdapter
         recyclerViewTrade.adapter = tradeAdapter
 
+    }
+
+    private fun onClickToPay(user: User) {
+        val intent : Intent = Intent(this, PayScreen::class.java)
+        intent.putExtra("user", user)
+        startActivity(intent)
     }
 
     private fun addListTrade() {

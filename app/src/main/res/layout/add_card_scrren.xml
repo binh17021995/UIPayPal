@@ -9,6 +9,7 @@
     tools:context=".AddCardScrren">
 
     <ImageView
+        android:scaleType="centerCrop"
         android:layout_width="match_parent"
         android:layout_height="260dp"
         android:background="@drawable/background_addcard" />
@@ -51,7 +52,11 @@
                 android:layout_marginTop="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/card"/>
+                android:src="@drawable/card"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="0dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
