@@ -181,6 +181,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="2dp"
                         android:layout_marginTop="21.5dp"
+                        android:layout_marginEnd="20dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         android:background="@drawable/dotted"
                         app:layout_constraintTop_toBottomOf="@id/tv_tipo" />
 
@@ -226,6 +228,7 @@
                         android:id="@+id/img_dotted_pay2"
                         android:layout_width="match_parent"
                         android:layout_height="2dp"
+                        android:layout_marginEnd="20dp"
                         android:layout_marginTop="16.3dp"
                         android:background="@drawable/dotted"
                         app:layout_constraintTop_toBottomOf="@id/img_logocard" />
@@ -257,6 +260,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="2dp"
                         android:layout_marginTop="18.5dp"
+                        android:layout_marginEnd="20dp"
                         android:background="@drawable/dotted"
                         app:layout_constraintTop_toBottomOf="@id/tv_cost" />
 
